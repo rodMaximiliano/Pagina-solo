@@ -1,0 +1,39 @@
+.ayudaContainer {
+    display: flex;
+    margin: 1rem 0 1rem 0;
+    backdrop-filter: blur(5px);
+    box-shadow: 1px 1px 9px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px 1px 9px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 1px 1px 9px 0px rgba(0,0,0,0.75);
+}
+
+.ayudaTexto {
+    display: flex;
+    flex-direction: column;
+    width: 48.5%;
+    padding: 2rem 10rem 0 3rem;
+    margin: 1rem;
+}
+
+.ayudaPersonal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ayudaBoton {
+    background-color: transparent;
+    color: black;
+    border-radius: 5px;
+    width: 100%;
+    font-size: 1rem;
+    padding: .5rem;
+    margin: 0 0 0 .3rem;
+    transition: all .2s ease-in-out;
+}
+
+.ayudaBoton:hover {
+    transform: scale(1.03);
+    cursor: pointer;
+}

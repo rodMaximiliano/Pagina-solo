@@ -1,0 +1,44 @@
+.encabezadoFondo {
+    background-image: url(/img/Minimalista-fondo-planta.jpg);
+    background-position: right;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+}
+
+.encabezadoContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.encabezadoMarca {
+    margin: 1rem;
+}
+
+.encabezadoTitulo {
+    font-size: 1.5rem;
+    margin: .5rem 0 0 1rem;
+}
+
+.encabezadoLista {
+    display: flex;
+    list-style: none;
+    margin: 0 3rem 0 0;
+}
+
+.encabezadoTexto {
+    margin: .5rem 1rem 0 1rem;
+    text-decoration: none;
+    color: black;
+    font-size: .9rem;
+}
+
+.encabezadoLink {
+    text-decoration: none;
+}
+
+.encabezadoLinkFocus {
+    color: black;
+}
+
