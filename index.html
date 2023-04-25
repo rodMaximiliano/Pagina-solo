@@ -21,32 +21,33 @@
         <link rel="stylesheet" href="css/rutasEstudio/rutasEstudio.css">
         <link rel="stylesheet" href="css/footer/footer.css">
 
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     </head>
     <body>
 
-        <header class="encabezadoFondo">
+        <header class="encabezadoFondo" id="inicio">
             <div class="encabezadoContainer">
                 <div class="encabezadoMarca">
-                    <h4 class="encabezadoTitulo">WebTools</h4>
+                    <h1 class="encabezadoTitulo">WebTools</h1>
                 </div>
                 <ul class="encabezadoLista">
-                    <a href="" class="encabezadoLinkFocus"><li class="encabezadoTexto">Inicio</li></a>
-                    <a href="" class="encabezadoLink"><li class="encabezadoTexto">Diseño</li></a>
-                    <a href="" class="encabezadoLink"><li class="encabezadoTexto">Programas</li></a>
-                    <a href="" class="encabezadoLink"><li class="encabezadoTexto">Extensiones Vs</li></a>
+                    <a href="index.html" class="encabezadoLinkFocus"><li class="encabezadoTexto">Inicio</li></a>
+                    <a href="Diseño.html" class="encabezadoLink"><li class="encabezadoTexto">Diseño</li></a>
+                    <a href="Programas.html" class="encabezadoLink"><li class="encabezadoTexto">Programas</li></a>
+                    <a href="ExtensionesVs.html" class="encabezadoLink"><li class="encabezadoTexto">Extensiones Vs</li></a>
                 </ul>
             </div>
-            
+
             <section class="presentacionContainer">
                 <div class="containerWebTools">
                     <h1 class="fontTitulo">WebTools</h1>
                 </div>
-                <h1 class="presentacionTitulo">Lo mas popular</h1>
+                <h1 class="presentacionTitulo" id="popular">Lo mas popular</h1>
                 <a class="containerBoton">Todas las categorias</a>
             </section>
 
             <section class="muestraContainer">
-                <a href="" class="muestraTarjeta">
+                <a href="ExtensionesVs.html" class="muestraTarjeta">
                     <div class="fontText">
                         <img src="img/Iconos/visual-basico.png" alt="" class="muestraLogo">
                         <h3>Extensiones Vs</h3>
@@ -54,7 +55,7 @@
                     </div>
                 </a>
                 
-                <a href="" class="muestraTarjeta">
+                <a href="Diseño.html" class="muestraTarjeta">
                     <div class="fontText">
                         <img src="img/Iconos/Diseño.png" alt="" class="muestraLogo">
                         <h3>Diseño</h3>
@@ -62,7 +63,7 @@
                     </div>
                 </a>
                 
-                <a href="" class="muestraTarjeta">
+                <a href="Programas.html" class="muestraTarjeta">
                     <div class="fontText">
                         <img src="img/Iconos/Programas.png" alt="" class="muestraLogo">
                         <h3>Programas</h3>
@@ -145,11 +146,26 @@
                 <h1>Podes ser parte de la comunidad para que mejoremos entre todos</h1>
                 <p>"A mi nadie me enseño, por que deberia?" Alguien tiene que empezar esa cadena y podes ser vos</p>
                 <div>
-                    <input type="text" name="" id="">
-                    <input type="button" name="" id="">
+                    <input type="text" name="footerMail" id="footerMail" placeholder="E-mail" class="footerMail">
+                    <input type="button" name="botonFooter" id="botonFooter" value="Enviar" class="footerBoton">
+                </div>
+                <div class="footerSecundario">
+                    <div class="footerImagenes">
+                        <a href="" class="iconosLink"><img src="img/iconosFooter/facebook.png" alt="" width="45px"></a>
+                        <a href="" class="iconosLink"><img src="img/iconosFooter/instagram.png" alt="" width="45px"></a>
+                        <a href="" class="iconosLink"><img src="img/iconosFooter/pinterest.png" alt="" width="45px"></a>
+                    </div>
+                    <div class="footerLinks">
+                        <a href="#inicio" class="footerlink borderRight scroll">Inicio</a>
+                        <a href="Diseño.html" class="footerlink borderRight">Diseño</a>
+                        <a href="Programas.html" class="footerlink borderRight">Programas</a>
+                        <a href="ExtensionesVs.html" class="footerlink borderRight">Extensiones Vs</a>
+                        <a href="#popular" class="footerlink scroll" id="boton-arriba">Lo mas popular</a>
+                    </div>
                 </div>
             </footer>
         </header>
         
+        <script src="js/footer.js"></script>
     </body>
 </html>

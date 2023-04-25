@@ -1,0 +1,46 @@
+.extensionesContainer{
+    display: flex;
+    align-items: center;
+    padding: 0 0 15rem 5rem;
+    margin: 3rem auto;
+    position: relative; /* Se establece la posición relativa para poder posicionar la imagen y el texto */
+    padding: 50px;
+}
+
+.extensionesLogo {
+    position: relative;
+    z-index: -1;
+    padding: 3rem 3rem 0 0;
+    left: 700px;
+    bottom: 80px;
+    animation-name: desapear;
+    animation-duration: 1s;
+}
+
+.extensionesTitulo {
+    width: 50%;
+    font-size: 4rem;
+    margin: 4rem 0 0 3rem;
+    position: relative; /* Se establece la posición relativa para poder posicionar el texto */
+    z-index: 1; /* Se establece un valor de z-index superior al de la imagen para que el texto esté por encima */
+    animation-name: desapear;
+    animation-duration: 1s;
+}
+
+@keyframes desapear {
+    0% {
+        opacity: 0%;
+    }
+
+    100% {
+        opacity: 100%;
+    }
+}
+
+.imageWrapper {
+    position: absolute; /* Se establece la posición absoluta para posicionar la imagen */
+    height: 100%; /* Se establece la altura de la imagen al 100% del contenedor */
+    z-index: -1; /* Se establece un valor de z-index inferior al del texto para que la imagen esté detrás */
+  }
+  
+  
