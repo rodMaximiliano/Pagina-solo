@@ -3,4 +3,6 @@ body {
 
     font-family: 'Comfortaa', cursive;
     font-weight: 300;
+
+    scroll-behavior: smooth;
 }
