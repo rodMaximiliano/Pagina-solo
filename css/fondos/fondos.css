@@ -1,5 +1,5 @@
 .fondoDiseño {
-    background-image: url(/img/fondoDiseño.png);
+    background-image: url(/Pagina-solo/img/fondoDiseño.png);
     background-position: left;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -7,13 +7,13 @@
 }
 
 .fondoDiseño2 {
-    background-image: url(/img/fondoDiseño2.png);
+    background-image: url(/Pagina-solo/img/fondoDiseño2.png);
     background-attachment: fixed;
     background-size: cover;
 }
 
 .fondoVisual {
-    background-image: url(/img/fondoVisual.png);
+    background-image: url(/Pagina-solo/img/fondoVisual.png);
     background-position: left;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -21,13 +21,13 @@
 }
 
 .fondoVisual2 {
-    background-image: url(/img/fondoVisual2.png);
+    background-image: url(/Pagina-solo/img/fondoVisual2.png);
     background-attachment: fixed;
     background-size: cover;
 }
 
 .fondoPrograma {
-    background-image: url(/img/fondoPrograma.png);
+    background-image: url(/Pagina-solo/img/fondoPrograma.png);
     background-position: left;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -35,7 +35,7 @@
 }
 
 .fondoPrograma2 {
-    background-image: url(/img/fondoPrograma2.png);
+    background-image: url(/Pagina-solo/img/fondoPrograma2.png);
     background-attachment: fixed;
     background-size: cover;
 }
