@@ -1,0 +1,39 @@
+.fondoDiseño {
+    background-image: url(/img/fondoDiseño.png);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: contain;
+}
+
+.fondoDiseño2 {
+    background-image: url(/img/fondoDiseño2.png);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.diseñoContainer {
+    margin: 0 0 2rem 0;
+    border: 1px solid #BEBEBE;
+    backdrop-filter: blur(10px);
+    box-shadow: 1px 1px 9px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px 1px 9px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 1px 1px 9px 0px rgba(0,0,0,0.75);
+}
+
+.diseñoTitulo {
+    text-align: center;
+    font-size: 10rem;
+    font-weight: 600;
+    padding: 2rem 0 2rem 0;
+}
+
+.diseñoTexto {
+    font-size: 1.25rem;
+    margin: 1rem;
+    width: 45%;
+}
+
+.diseñonEjemplos {
+    text-align: center;
+}

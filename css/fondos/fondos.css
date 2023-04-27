@@ -1,0 +1,41 @@
+.fondoDiseño {
+    background-image: url(/img/fondoDiseño.png);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: contain;
+}
+
+.fondoDiseño2 {
+    background-image: url(/img/fondoDiseño2.png);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.fondoVisual {
+    background-image: url(/img/fondoVisual.png);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: contain;
+}
+
+.fondoVisual2 {
+    background-image: url(/img/fondoVisual2.png);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.fondoPrograma {
+    background-image: url(/img/fondoPrograma.png);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: contain;
+}
+
+.fondoPrograma2 {
+    background-image: url(/img/fondoPrograma2.png);
+    background-attachment: fixed;
+    background-size: cover;
+}
