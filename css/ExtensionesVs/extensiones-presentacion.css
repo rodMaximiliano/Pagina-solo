@@ -1,18 +1,12 @@
 .extensionesContainer{
     display: flex;
     align-items: center;
-    padding: 0 0 15rem 5rem;
-    margin: 3rem auto;
-    position: relative; /* Se establece la posición relativa para poder posicionar la imagen y el texto */
-    padding: 50px;
+    justify-content: space-evenly;
+    margin: 2rem 0 0 0;
 }
 
 .extensionesLogo {
-    position: relative;
-    z-index: -1;
-    padding: 3rem 3rem 0 0;
-    left: 775px;
-    bottom: 80px;
+    width: 50%;
     animation-name: desapear;
     animation-duration: 1s;
     width: 400px;
@@ -20,10 +14,8 @@
 
 .extensionesTitulo {
     width: 50%;
-    font-size: 3rem;
+    font-size: 4rem;
     margin: 4rem 0 0 3rem;
-    position: relative; /* Se establece la posición relativa para poder posicionar el texto */
-    z-index: 1; /* Se establece un valor de z-index superior al de la imagen para que el texto esté por encima */
 }
 
 body {
